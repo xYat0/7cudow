@@ -1,0 +1,296 @@
+ body{
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    background-color: #ffffff;
+}
+
+/*  NAVBAR  */
+
+nav{
+	display: flex;
+	justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    font-size: 1vw;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    
+}
+nav li{
+    float: left;
+    padding: 1em;
+}
+nav li:hover{
+    background-color: #343e47;
+    color: #fff;
+}
+nav a{
+    text-decoration: none;
+    color: #343e47;
+    
+}
+
+/*  LOGO    */
+
+#logo{
+	display: flex;
+	justify-content: center;
+    font-size: 3vw;
+    margin: 7vh auto 0 auto;
+    color: #343e47;
+    clear: both;
+}
+
+/*  STOPKA */
+
+footer{
+    width: 100%;
+    height: 2em;
+    text-align: center;
+    margin-top: 2em;
+    opacity: 0.3;
+}
+
+/*  CONTENT     */
+#content{
+	margin: 2% 0 0 0;
+}
+a{
+	text-decoration: none;
+	color:cornflowerblue;
+}
+
+
+/*	MENU	*/
+.row{
+	display: flex;
+	justify-content: center;
+    text-align: center;
+    clear: both;
+    margin: 0 auto;
+}
+.square{
+    width: 18vw;
+    height: 25vh;
+    background-size: cover;
+    float: left;
+    margin: 1%;
+	font-size: 2vw;
+}
+#menu a{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	color: #fff;
+	text-decoration: none;
+	width: 18vw;
+    height: 25vh;
+}
+#menu a:hover{
+	display:flex;
+	cursor: pointer;
+	opacity: 1;
+}
+.article p:first-letter{
+	font-size: 2.4vw;
+}
+.square__tajmahal{
+    background: url(pic/tajmahal_big.jpg);
+    background-size: cover;
+}
+.square__mur{
+    background: url(pic/mur_big.jpg);
+    background-size: cover;
+}
+.square__koloseum{
+    background: url(pic/koloseum_big.jpg);
+    background-size: cover;
+}
+.square__pomnik{
+    background: url(pic/pomnik_big.jpg);
+    background-size: cover;
+}
+.square__piramidy{
+    background: url(pic/piramidy_big.jpg);
+    background-size: cover;
+}
+.square__wieza{
+    background: url(pic/wieza_big.jpg);
+    background-size: cover;
+}
+.square__partenon{
+    background: url(pic/partenon_big.jpeg);
+    background-size: cover;
+}
+
+
+/*	MENU:HOVER	*/
+
+.square__tajmahal:hover{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(pic/tajmahal_big.jpg);
+    background-size: cover;
+}
+.square__mur:hover{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(pic/mur_big.jpg);
+    background-size: cover;
+}
+.square__koloseum:hover{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(pic/koloseum_big.jpg);
+    background-size: cover;
+}
+.square__pomnik:hover{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(pic/pomnik_big.jpg);
+    background-size: cover;
+}
+.square__piramidy:hover{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(pic/piramidy_big.jpg);
+    background-size: cover;
+}
+.square__wieza:hover{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(pic/wieza_big.jpg);
+    background-size: cover;
+}
+.square__partenon:hover{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(pic/partenon_big.jpeg);
+    background-size: cover;
+}
+
+/*  WALL    */
+main{
+    clear: both;
+	margin-top: 5vh;
+	display: none;
+}
+.post{
+    width: 70vw;
+    display: none;
+    margin: 0 auto;
+}
+.post__background{
+	width: 70vw;
+    height: 80vh;
+    display: block;
+    margin: 0 auto;
+}
+.article{
+    width: 60vw;
+    background-color: #fff;
+    margin: -20vh auto 0 auto;
+    padding: 2vw;
+	font-size: 1.2vw;
+}
+.article h3{
+    text-align: center;
+    margin: 0;
+    color: #343e47;
+    font-size: 3vw;
+    letter-spacing: 0.3vw;
+}
+.post__tajmahal{    
+    background-image: url(pic/tajmahal_big.jpg);
+    background-size: cover;
+}
+.post__mur{    
+    background-image: url(pic/mur_big.jpg);
+    background-size: cover;
+}
+.post__koloseum{    
+    background-image: url(pic/koloseum_big.jpg);
+    background-size: cover;
+}
+.post__pomnik{    
+    background-image: url(pic/pomnik_big.jpg);
+    background-size: cover;
+}
+.post__piramidy{    
+    background-image: url(pic/piramidy_big.jpg);
+    background-size: cover;
+}
+.post__wieza{    
+    background-image: url(pic/wieza_big.jpg);
+    background-size: cover;
+}
+.post__partenon{    
+    background-image: url(pic/partenon_big.jpeg);
+    background-size: cover;
+}
+
+/*	ANKIETA		*/
+#ankieta{
+	display: none;
+}
+#ankieta .container{
+	width: 60vw;
+	margin: 0 auto;
+	color: #343e47;
+	font-size: 2vw;
+}
+#ankieta form{
+	width: 40vw;
+	margin: 0 auto;
+}
+
+#ankieta h3{
+	text-align: center;
+	font-size: 2vw;
+}
+
+#ankieta ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#ankieta li{
+	margin: 0;
+	padding: 3vh 0;
+}
+
+#ankieta label{
+	display: block;
+}
+
+#ankieta .input{
+	width: 100%;
+	font-size: 1.5vw;
+	color: #343e47;
+	border: 0;
+	border-bottom: 2px solid #343e47;
+}
+#ankieta .input:invalid{
+	border: 0;
+	border-bottom: 2px solid red;
+}
+#ankieta .input:valid{
+	border: 0;
+	border-bottom: 2px solid green;
+}
+#ankieta .submit{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: #fff;
+	font-size: 1.5vw;
+	
+	color: #343e47;
+}
+/*  DO TABELI   */
+table, tr, td{
+	border: 1px solid #343e47;
+}
+.yes{
+	background-color: lightgreen;
+	
+}
+.no{
+	background-color: lightcoral;
+}
+

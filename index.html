@@ -1,0 +1,296 @@
+ <!--	TODO 
+
+
+
+GALERIA ZDJĘĆ
+
+
+
+
+
+
+
+
+-->
+<!doctype html>
+<html>
+    <head>
+        <meta charset=utf-8>
+        <link rel=stylesheet href=css.css>
+        <title>7 cudów architektury</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&amp;subset=latin-ext" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,700|Work+Sans:400,700&amp;subset=latin-ext" rel="stylesheet"> 
+        <link href=gallery.css rel=stylesheet>
+		<script src=js.js></script>
+    </head>
+    <body>
+        
+        <header id=header>
+        <nav>
+            <ul>
+				<a class=link href=#header onclick="hideAll();"><li>STRONA GŁÓWNA</li></a>
+				<a class=link href=#header onclick="showAnkieta();"><li>ANKIETA</li></a>
+				<a class=link href=#header onclick="showGallery();"><li>GALERIA</li></a>
+				
+            </ul>
+        </nav>
+        
+            <div id=logo>
+                7 CUDÓW ARCHITEKTURY
+            </div>
+        </header>
+        
+<!-- CAŁY KONTENT STRONY  -->
+        
+        <section id=content>
+            
+            <section id=menu>
+                <section class=row>
+					<div class="square square__tajmahal" onclick="showTajmahal();"><a href=#tajmahal>TAJ MAHAL</a></div>
+					<div class="square square__mur" onclick="showMur();"><a href=#mur>WIELKI MUR CHIŃSKI</a></div>
+                </section>
+                <section class=row>
+                    <div class="square square__koloseum" onclick="showKoloseum();"><a href=#koloseum>KOLOSEUM</a></div>
+                    <div class="square square__pomnik" onclick="showPomnik();"><a href=#pomnik>POMNIK CHRYSTUSA W RIO</a></div>
+                    <div class="square square__piramidy" onclick="showPiramidy();"><a href=#piramidy>PIRAMIDY EGIPSKIE</a></div>
+                </section>
+                <section class=row>
+                    <div class="square square__wieza" onclick="showWieza();"><a href=#wieza>KRZYWA WIEŻA W PIZIE</a></div>
+                    <div class="square square__partenon" onclick="showPartenon();"><a href=#partenon>PARTENON</a></div>
+                </section>
+            </section>
+            
+            <main id=main>
+                <div class="post" id=tajmahal>
+					<div class="post__background post__tajmahal"></div>
+                    <div class=article>
+                        <h3>TAJ MAHAL</h3>
+                        <p>Taj Mahal to indyjskie mauzoleum wzniesione przez Szahdżahana z dynastii Wielkich Mogołów, na pamiątkę przedwcześnie zmarłej, ukochanej żony Mumtaz Mahal. Obiekt bywa nazywany świątynią miłości. Tadź Mahal został wzniesiony w Agrze, mieście nad rzeką Jamuna, w indyjskim stanie Uttar Pradesh. Agra leży w odległości około 200 kilometrów od Delhi – dawnej stolicy Indii. Jest to jeden z głównych punktów wielu wycieczek zagranicznych. Kompleks budowlany Tadź Mahal składa się z głównego mauzoleum z wielką kopułą, w kształcie cebuli, charakterystyczną dla sztuki islamu i olbrzymią bramą, symbolizującą wrota do Raju. Jest ona osadzona na plincie, w której rogach stoją cztery minarety – wieże, z których muezin nawołuje wiernych do modlitwy. Po bokach stoją dwa identyczne meczety z czerwonego kamienia. Uzupełnieniem kompleksu są standardowe elementy tego typu budowli: kanały wodne oraz podzielony na cztery części ogród krajobrazowy. Konstrukcja ogrodu perskiego przed mauzoleum imituje muzułmańskie wyobrażenie raju, które cechuje duże podobieństwo do jego chrześcijańskiego odpowiednika.
+                        </p>
+						<a href="https://pl.wikipedia.org/wiki/Tad%C5%BA_Mahal" target=_blank>Źródło</a>
+                    </div>
+                </div>
+                
+                <div class="post" id=mur>
+					<div class="post__background post__mur"></div>
+                    <div class=article>
+                        <h3>WIELKI MUR CHIŃSKI</h3>
+                        <p>Wielki Mur Chiński jest jednym z najznakomitszych i najbardziej “morderczych” dokonań budowlanych wszechczasów. Obiekt ten zaliczono do 7 cudów świata. Figuruje na Liście Światowego Dziedzictwa Kultury i Przyrody UNESCO.Początki Wielkiego Muru sięgają VIII w p.n.e. okresu zwanego w historii Chin epoką Wiosny i Jesieni i epoką Walczących Królestw, W tym okresie Chiny podzielone były na wiele państewek-księstw. Te państwa, które były najbardziej wysunięte na północ jak Yan, Zhao, Qin, często były zagrożone napadami silnego koczowniczego plamienia Hunów, niszczącego rozwiniętą gospodarkę Chin. W związku z tym Chińczycy, chcieli jak najszczelniej oddzielić się od sąsiadów. W tym celu, już od około VIIw p.n.e. zaczęli wznosić pierwsze fortyfikacje, dzięki którym w kilka stuleci później mógła powstać słynna budowla. Obecnie przypuszcza się, że początkowe obwarowania wznoszone były nawet około 300 lat wcześniej. 
+                        </p>
+						<a href="http://sciaga.pl/tekst/52993-53-wielki_mur_chinski">Czytaj dalej</a>
+                    </div>
+                </div>
+            
+            	<div class="post" id=koloseum>
+					<div class="post__background post__koloseum"></div>
+                    <div class=article>
+                        <h3>KOLOSEUM</h3>
+                        <p>Koloseum, czyli amfiteatr Flawiuszy, to najbardziej znany obiekt służący do urządzania publicznych widowisk w starożytnym Rzymie. Imponująca bryła amfiteatru zbudowana została u podnóża Eskwilinu przez cesarzy z dynastii Flawiuszy. Budowę rozpoczął w 70 r. n.e. Wespazjan, a ukończył w 80 r. n.e. jego syn Tytus. Owalny amfiteatr liczy 188 metrów długości i 156 szerokości. Koloseum zajmuje powierzchnię ok. 24 000 mkw. Wysokość obiektu to ok. 48,5 metrów, a maksymalna liczba widzów, którzy mogli oglądać spektakle, mogła według różnych autorów sięgać 50, a nawet 70 000 osób. Był to największy amfiteatr w imperium rzymskim, ale potoczna nazwa, wbrew potocznym wyobrażeniom, nie pochodzi od gigantycznych rozmiarów antycznego centrum sportowego. Utworzona została od Kolosa, czyli ogromnego posągu cesarza Nerona, ustawionego w starożytności obok Koloseum. Czterdziestometrowa rzeźba miała rozmiary porównywalne z nowojorską Statuą Wolności (46,5 m).</p>
+						
+						<a href=https://archirama.muratorplus.pl/encyklopedia-architektury/koloseum,62_663.html target=_blank>Więcej</a>
+                    </div>
+                </div>
+            
+            	<div class="post" id=pomnik>
+					<div class="post__background post__pomnik"></div>
+                    <div class=article>
+                        <h3>POMNIK JEZUSA W RIO</h3>
+                        <p>Statua Chrystusa Zbawiciela, 38-metrowy pomnik Jezusa Chrystusa wzniesiony na szczycie granitowej góry Corcovado w Rio de Janeiro w Brazylii. Statua jest jednym z symboli Rio oraz imponującym i charakterystycznym obiektem w tym mieście. W 1921 r. rozpoczęła się zbiórka pieniędzy na budowę pomnika, który miał upamiętnić setną rocznicę niepodległości Brazylii. Rozważano kilka projektów, między innymi gigantyczny krzyż czy postać Boga z kulą ziemską w dłoni. Ostatecznie wybrano pomysł Hektora da Silvy, którego olbrzymia statua Chrystusa z rozpostartymi ramionami obejmującymi zarówno miasto jak i witająca przybywających gości od morza spodobała się najbardziej. Pieniądze zebrano w kościołach całej Brazylii. Sam pomnik został zaprojektowany przez francuskiego rzeźbiarza polskiego pochodzenia Paula Landowskiego.
+                        </p>
+						<a href=https://pl.wikipedia.org/wiki/Statua_Chrystusa_Zbawiciela_w_Rio_de_Janeiro target="_blank">Dowiedz się więcej</a>
+                    </div>
+                </div>
+            
+				
+				<div class="post" id=piramidy>
+					<div class="post__background post__piramidy"></div>
+                    <div class=article>
+                        <h3>PIRAMIDY EGIPSKIE</h3>
+                        <p>Piramidy w Gizie – zespół historycznych budowli obejmujący dwie największe piramidy zbudowane w starożytnym Egipcie (piramidę Cheopsa i piramidę Chefrena) oraz mniejszą piramidę Mykerinosa i towarzyszące im obiekty. Wszystkie mają kształt ostrosłupa o podstawie kwadratu. Największą z nich jest piramida Cheopsa (w starożytności znana jako „Horyzont Cheopsa”) – jeden z siedmiu cudów świata z podstawą o boku 230 m i o wysokości 147 m[1]. Piramida Chefrena („Wielki jest Chefren”[2]) osiąga wysokość 137 m, piramida Mykerinosa („Boski jest Mykerinos”[2]) ma tylko 65 metrów wysokości. Wokół tych piramid pobudowano szereg mniejszych, przeznaczonych na grobowce królowych i dostojników państwowych.Piramida Chefrena wyróżnia się ustawioną obok niej (przy dolnej świątyni grobowej) monumentalną rzeźbą Sfinksa. Wyrzeźbiony w olbrzymim bloku skalnym, ma ciało lwa i głowę faraona osłoniętą szeroką chustą nemes. Długość monumentu wynosi 73 m, a wysokość 20 m[3]. Jest to pierwsza monumentalna rzeźba w sztuce egipskiej. We wnętrzu dolnej świątyni grobowej odnaleziono posąg Chefrena wykonany z ciemnego diorytu i przedstawiający faraona na tronie, którego nogi wyrzeźbiono jako figury lwa, a sam tron ozdobiono reliefem przedstawiającym heraldyczny emblemat Sema-taui, symbolizujący połączenie obu krajów – Górnego i Dolnego Egiptu. Głowę Chefrena obejmują skrzydła Horusa chroniącego władcę. Rzeźba znajduje się w Muzeum w Kairze.
+                        </p>
+						<a href=https://pl.wikipedia.org/wiki/Piramidy_w_Gizie target="_blank">Dalej</a>
+                    </div>
+                </div>
+				
+				<div class="post" id=wieza>
+					<div class="post__background post__wieza"></div>
+                    <div class=article>
+                        <h3>KRZYWA WIEŻA W PIZIE</h3>
+                        <p>Krzywa Wieża w Pizie to jedna z najbardziej znanych budowli świata, odwiedzana rocznie przez ok. 10 milionów turystów; symbol miasta Pizy. W istocie jest dzwonnicą (kampanilą) katedralną i należy do kompleksu zabudowań w stylu romańskim na Campo dei Miracoli, wpisanych w 1987 roku na listę światowego dziedzictwa UNESCO. Wkrótce po rozpoczęciu budowy w 1174 wieża zaczęła odchylać się od pionu, co próbowano korygować w czasie budowy (np. wydłużając kolumny po jednej stronie wieży). Wieżę budowano w 3 etapach. Cała budowa trwała 177 lat. Mimo niebezpieczeństwa, jeszcze w 1350 dodano ostatnie piętro, w którym umieszczono dzwony. W XIX wieku zaczęto podejmować pierwsze próby powstrzymania przechylania się wieży, co przyniosło jednak przeciwny skutek. Wieża jest zbudowana z białego marmuru, liczy osiem kondygnacji. Jej masę ocenia się na 14 tysięcy ton. Została zaprojektowana przez Guglielmo i Bonanno Pisano. W 1990 wieżę zamknięto dla zwiedzających i powołano specjalny komitet, który miał wybrać najlepszy sposób zabezpieczenia przed dalszym odchylaniem się wieży. Od 2001 wieża jest ponownie otwarta dla turystów. Obecnie wieża ma wysokość 54,98 m, odchyliła się zaś od pionu o około 5 m (średnio o 1 mm rocznie). Od 1911 pomiary te są co roku aktualizowane.
+                        </p>
+						<a href=https://pl.wikipedia.org/wiki/Krzywa_Wie%C5%BCa_w_Pizie target="_blank">Inspiracja</a>
+                    </div>
+                </div>
+				
+				<div class="post" id=partenon>
+					<div class="post__background post__partenon"></div>
+                    <div class=article>
+                        <h3>PARTENON</h3>
+                        <p>Partenon jeden z centralnie położonych budynków ateńskiego Akropolis. Jego budowę rozpoczęto w 447 p.n.e., a zakończono w roku 432 p.n.e. Uważa się, że budowla powstała w oparciu o plany Iktinosa i Kallikratesa, zaś przy wykonywaniu elementów rzeźbiarskich pracować miał sam Fidiasz. Partenon ma także inne nazwy takie jak Pertenos i Pwaretona. Nazwa Partenon nawiązuje do Ateny Partenos (Ateny Dziewicy), której świątynia była poświęcona. Zbudowany w zgodzie z porządkiem doryckim, jest uważany za najdoskonalszy jego przykład, niemniej w świątyni znajdują się elementy porządku jońskiego, tj. 4 jońskie kolumny w pomieszczeniu zachodnim oraz tzw. fryz panatenajski znajdujący się na ścianach celli. Partenon zbudowano z białego marmuru pentelickiego. Nie oparł się on zniszczeniom i grabieży. Świątynia zbudowana na planie peripterosu, stoi na stylobacie o wymiarach 69,51 x 30,86 m. Otacza ją kolumnada złożona z 46 kolumn (po 17 na dłuższych bokach i po 8 na krótszych) o 20 kanelurach. Pronaos i opistodomos poprzedza po 6 kolumn. Za pronaosem (przedsionkiem) znajduje się naos, w której na podium umieszczony był wysoki na 11 m posąg Ateny Partenos, wykonany przez Fidiasza w technice chryzelefantynowej. Wnętrze naosu z trzech stron otacza dwupoziomowa kolumnada, która je dzieli na trzy nawy. Opistodomos (starożytni tylko tę salę nazywali Partenonem) to prostopadłościenna sala, wewnątrz której ustawiono cztery kolumny w porządku jońskim, podpierające belkowanie stropodachu.
+                        </p>
+						<a href=https://pl.wikipedia.org/wiki/Partenon target="_blank">Więcej szczegółów</a>
+                    </div>
+                </div>
+            </main>
+            
+			<main id=ankieta>
+				
+				<div class="container">
+				
+					<h3>Proszę, wypełnij ankietę, aby pomóc w ulepszaniu naszej strony. Dziękujemy!</h3>
+				
+					<form>
+						<ul>
+							<li>
+								<label>Imię</label>
+								<input name="name" placeholder="Jan" class=input>
+							</li>
+							
+							<li>
+								<label>Nazwisko</label>
+								<input name="lastname" placeholder="Kowalski" class=input>
+							</li>
+							
+							<li>
+								<label>E-mail</label>
+								<input name="email" type ="email" placeholder="osoba@example.com" class=input>
+							</li>
+							
+							<li>
+								<label>Numer telefonu</label>
+								<input name="number" type=tel placeholder="000-000-000" class=input>
+							</li>
+							
+							<li>
+								<label>Wiek</label>
+								<input name="wiek" type="text" class=input>
+							</li>
+							
+							<li>
+								<label>Co podoba ci się w stronie?</label>
+								<input name="podoba" type="text" class=input>
+							</li>
+							
+							<li>
+								<label>Co nie podoba ci się w stronie?</label>
+								<input name="podoba" type="text" class=input>
+							</li>
+							
+							<li>
+								<input type=submit value=Wyślij class=submit>
+							</li>
+						</ul>
+					</form>
+					
+<!--TA CZĘŚĆ JEST TYLKO I WYŁĄCZNIE ABY POKAZAĆ, ŻE UMIEM W TABELE-->								<h3>Jezeli chcesz się z nami skontaktować, jesteśmy pod telefonem w podanych godzinach:</h3>
+					<table class=container>
+						<tr>
+							<td>DNI TYGODNIA</td>
+							<td>GODZINA</td>
+						</tr>
+						<tr class=yes>
+							<td>PONIEDZIAŁEK</td>
+							<td>10-18</td>
+						</tr>
+						<tr class=yes>
+							<td>WTOREK</td>
+							<td>10-18</td>
+						</tr>
+						<tr class=yes>
+							<td>ŚRODA</td>
+							<td>10-18</td>
+						</tr>
+						<tr class=yes>
+							<td>CZWARTEK</td>
+							<td>10-18</td>
+						</tr>
+						<tr class=yes>
+							<td>PIĄTEK</td>
+							<td>10-18</td>
+						</tr>
+						<tr class=no>
+							<td>SOBOTA</td>
+							<td>NIECZYNNE</td>
+						</tr>
+						<tr class=no>
+							<td>NIEDZIELA</td>
+							<td>NIECZYNNE</td>
+						</tr>
+					</table>
+					
+					
+				</div>
+			
+			</main>
+			
+			<main id=gallery>
+                <div class="row">
+                    <div class="column">
+                        <img src="pic/tajmahal.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                    </div>
+                    <div class="column">
+                        <img src="pic/koloseum.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                    </div>
+                    <div class="column">
+                        <img src="pic/mur.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                    </div>
+                    <div class="column">
+                        <img src="pic/partenon.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                    </div>
+                </div>
+
+<!-- PODGLĄD -->
+                <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+
+                        <div class="mySlides">
+                            <div class="numbertext">1 / 4</div>
+                            <img src="pic/tajmahal_big.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">2 / 4</div>
+                            <img src="pic/koloseum_big.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">3 / 4</div>
+                            <img src="pic/mur_big.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">4 / 4</div>
+                            <img src="pic/partenon_big.jpeg" style="width:100%">
+                        </div>
+
+    <!-- NASTĘPNY POPRZEDNI -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- MAŁE ZDJ PODGLĄD -->
+                        <div class="column">
+                            <img class="demo" src="pic/tajmahal.jpg" onclick="currentSlide(1)">
+                        </div>
+
+                        <div class="column">
+                            <img class="demo" src="pic/koloseum.jpg" onclick="currentSlide(2)">
+                        </div>
+
+                        <div class="column">
+                            <img class="demo" src="pic/mur.jpg" onclick="currentSlide(3)">
+                        </div>
+
+                        <div class="column">
+                            <img class="demo" src="pic/partenon.jpg" onclick="currentSlide(4)">
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </section>
+        
+		<footer>Copyright &copy; Emil Beski klasa 2TA 2018</footer>
+        
+    </body>
+
+</html>
